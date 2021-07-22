@@ -1,0 +1,23 @@
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    max-width: 1000px;
+}
+
+.arrow-box img{
+    height: 40px;
+}
+
+.arrow-right{
+    transform: rotate(0.5turn);
+}
+
+.arrow-box{
+    background-color: ghostwhite;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
