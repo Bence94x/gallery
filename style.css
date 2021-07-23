@@ -1,6 +1,11 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .image{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 img{
@@ -20,4 +25,16 @@ img{
     padding: 40px;
     display: flex;
     align-items: center;
+}
+
+.text-box{
+    position: absolute;
+    bottom: 0;
+    width: 1000px;
+    background-color: rgb(0,0,0,0.4);
+    color: white;
+}
+
+.text{
+    padding: 0 30px;
 }
