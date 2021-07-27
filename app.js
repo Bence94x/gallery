@@ -31,7 +31,19 @@ let data = [
     },
 ]
 
+
 let currentPhoto = 0;
 $(".photo").attr("src", data[4].photo);
 $(".title").html(data[4].title);
 $(".description").html(data[4].description);
+
+let loadPhoto = () => {
+    $(".photo").attr("src", data[4].photo);
+};
+
+loadPhoto(currentPhoto);
+
+$('.arrow-right').click(() => {
+    currentPhoto++;
+    loadPhoto(currentPhoto);
+});
